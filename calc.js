@@ -39,7 +39,7 @@ reader.question("What would you like to calculate?", function(input){
 	};
 
 	//Square Root
-	if(mathSymbol === '**' ) { 
+	if(mathSymbol === 'SqRt' ) { 
 		console.log(num1 ** .5)
 	};
 
@@ -51,7 +51,12 @@ reader.question("What would you like to calculate?", function(input){
 	//Cube a number
 	if(mathSymbol === 'Cube') {
 		console.log(num1 ** 3)
-	}
+	};
+
+	//Raise to given power
+	if(mathSymbol === '**') {
+		console.log(num1 ** num2)
+	};
 
 	// This line closes the connection to the command line interface.
 	reader.close()
