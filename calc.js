@@ -18,35 +18,40 @@ reader.question("What would you like to calculate?", function(input){
 	console.log('num1', num1);
 	console.log('num2', num2); 
 
-	//Addition// 
+	//Addition
 	if(mathSymbol === '+') {
 		console.log(num1 + num2)
 	};
 
-	//Subtraction//
+	//Subtraction
 	if(mathSymbol === '-') {
 		console.log(num1 - num2)
 	};
 
-	//Multiplication//
+	//Multiplication
 	if(mathSymbol === '*') {
 		console.log(num1 * num2)
 	};
 
-	//Division//
+	//Division
 	if(mathSymbol === '/') {
 		console.log(num1 / num2)
 	};
 
-	//Square Root//
+	//Square Root
 	if(mathSymbol === '**' ) { 
 		console.log(num1 ** .5)
 	};
 
-	//Squaring a number
+	//Square a number
 	if(mathSymbol === 'Square') {
 		console.log(num1 ** 2)
 	};
+
+	//Cube a number
+	if(mathSymbol === 'Cube') {
+		console.log(num1 ** 3)
+	}
 
 	// This line closes the connection to the command line interface.
 	reader.close()
