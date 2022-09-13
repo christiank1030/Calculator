@@ -18,12 +18,12 @@ reader.question("What would you like to calculate?", function(input){
 	console.log('num1', num1);
 	console.log('num2', num2); 
 
-	//addition// 
+	//Addition// 
 	if(mathSymbol === '+') {
 		console.log(num1 + num2)
 	};
 
-	//subtraction//
+	//Subtraction//
 	if(mathSymbol === '-') {
 		console.log(num1 - num2)
 	};
@@ -43,6 +43,10 @@ reader.question("What would you like to calculate?", function(input){
 		console.log(num1 ** .5)
 	};
 
+	//Squaring a number
+	if(mathSymbol === 'Square') {
+		console.log(num1 ** 2)
+	};
 
 	// This line closes the connection to the command line interface.
 	reader.close()
