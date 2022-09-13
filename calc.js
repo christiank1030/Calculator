@@ -18,24 +18,27 @@ reader.question("What would you like to calculate?", function(input){
 	console.log('num1', num1);
 	console.log('num2', num2); 
 
+	//addition// 
 	if(mathSymbol === '+') {
 		console.log(num1 + num2)
 	};
 
-
+	//subtraction//
 	if(mathSymbol === '-') {
 		console.log(num1 - num2)
 	};
 
-
+	//Multiplication//
 	if(mathSymbol === '*') {
 		console.log(num1 * num2)
 	};
 
+	//Division//
 	if(mathSymbol === '/') {
 		console.log(num1 / num2)
 	};
 
+	//Square Root//
 	if(mathSymbol === '**' ) { 
 		console.log(num1 ** .5)
 	};
